@@ -25,6 +25,9 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav gap-3 ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
+                        <a class="nav-link text-white  fw-medium" href="./mascotas/index.html">Mascotas</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-white  fw-medium" href="#hero">Inicio</a>
                     </li>
                     <li class="nav-item">
@@ -57,7 +60,13 @@
                         <h1 class="display-1 text-black fw-bold">PORTAFOLIO</h1>
                         <p class="display-6 text-black fw-bold">Miguel Rodriguez | Software Developer</p>
                         <p class="lead">Bienvenido al website del portafolio de Miguel, coder de Riwi perteneciente al clan McCharty.</p>
-                        <a href="#python" class="btn btn-primary">Ver Proyectos</a>
+                        <a href="#python" class="btn btn-primary mb-5">Ver Proyectos</a>
+                        <p id="dynamicText" class="lead">
+                            Este portafolio reúne los proyectos que he desarrollado durante mi proceso en Riwi.
+                        </p>
+                        <button id="changeTextBtn" class="btn btn-secondary mt-2">
+                            Cambiar mensaje
+                        </button>
                     </div>
                 </div>
             </div>
@@ -78,12 +87,20 @@
                         <p class="lead text-white">
                             Este portafolio reúne los proyectos que he desarrollado durante mi proceso en Riwi, donde aplico conceptos de programación frontend y backend.
                         </p>
+
+                        <button id="toggleBtn" class="btn btn-outline-light mt-3">
+                            Mostrar más
+                        </button>
+
+                        <p id="extraInfo" class="lead text-white mt-3" style="display:none;">
+                            También tengo experiencia en administración y gestión de proyectos creativos.
+                        </p>
                     </div>
                     <!--Foto + habilidades-->
                     <div class="col-12 col-lg-6 text-center mt-5 mt-lg-0">
                         <!--Foto-->
                         <div class="mb-4">
-                            <img src="../images/foto.png" class="img-fluid rounded-circle" style="width:250px; height:250px; object-fit:cover;" alt="Foto Miguel">
+                            <img src="./images/foto.png" class="img-fluid rounded-circle" style="width:250px; height:250px; object-fit:cover;" alt="Foto Miguel">
                         </div>
                         <!--Iconos habilidades-->
                         <div class="row g-3 justify-content-center">
@@ -346,13 +363,13 @@
                     <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
                         <div class="card text-center" style="width: 18rem;">
                             <div class="card-header">
-                                <h5 class="card-title">Moodle Week 3: ¿?</h5>
+                                <h5 class="card-title">Moodle Week 3: Mascotas</h5>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Aún no la he hecho.</p>
+                                <p class="card-text">Interacción del portafolio usando JavaScript.</p>
                             </div>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary" target="_blank">GitHub</a>
+                                <a href="https://github.com/miguelrodrica/m2_htmlcss_moodle_week3" class="btn btn-primary" target="_blank">GitHub</a>
                                 <a href="#" class="btn btn-primary" target="_blank">View</a>
                             </div>
                         </div>
@@ -431,7 +448,7 @@
         </footer>
     </main>
     <!--Links de JavaScript y Bootstrap-->
-    <script src="../js/script.js"></script>
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
