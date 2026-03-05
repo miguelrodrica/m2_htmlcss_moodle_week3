@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Miguel</title>
+    <!--Links de CSS y Bootstrap-->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="#hero">
+                <i class="bi bi-code-slash"></i>
+                MIGUEL
+            </a>
+            <!--Botón para pantallas pequeñas-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="bi bi-list text-white "></i></span>
+            </button>
+            <!--Contenedor para el menú y colapsable-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav gap-3 ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white  fw-medium" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-medium" href="#about">Sobre mí</a>
+                    </li>
+                    <!--Lista desplegable de proyectos-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Proyectos Riwi
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#python">M1: Python</a></li>
+                            <li><a class="dropdown-item" href="#htmlcss">M2: HTML CSS</a></li>
+                            <li><a class="dropdown-item" href="#">M3: JavaScript</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-medium" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!--Hero-->
+        <section class="min-vh-100 d-flex align-items-center" id="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="display-1 text-black fw-bold">PORTAFOLIO</h1>
+                        <p class="display-6 text-black fw-bold">Miguel Rodriguez | Software Developer</p>
+                        <p class="lead">Bienvenido al website del portafolio de Miguel, coder de Riwi perteneciente al clan McCharty.</p>
+                        <a href="#python" class="btn btn-primary">Ver Proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sobre mí-->
+        <section class="bg-black d-flex align-items-center" id="about">
+            <div class="container">
+                <div class="row py-5 align-items-center">
+                    <!--Texto-->
+                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                        <h1 class="display-4 text-white fw-bold mb-5">Sobre mí</h1>
+                        <p class="lead text-white">
+                            Soy <strong>Miguel Rodriguez</strong>, desarrollador de software en formación y Administrador de Empresas. Actualmente hago parte del programa de entrenamiento de <strong>Riwi</strong>, donde estoy aprendiendo programación web.
+                        </p>
+                        <p class="lead text-white">
+                            Durante mi proceso de aprendizaje he trabajado con tecnologías como <strong>Python, HTML, CSS, Bootstrap y GitHub</strong>.
+                        </p>
+                        <p class="lead text-white">
+                            Este portafolio reúne los proyectos que he desarrollado durante mi proceso en Riwi, donde aplico conceptos de programación frontend y backend.
+                        </p>
+                    </div>
+                    <!--Foto + habilidades-->
+                    <div class="col-12 col-lg-6 text-center mt-5 mt-lg-0">
+                        <!--Foto-->
+                        <div class="mb-4">
+                            <img src="../images/foto.png" class="img-fluid rounded-circle" style="width:250px; height:250px; object-fit:cover;" alt="Foto Miguel">
+                        </div>
+                        <!--Iconos habilidades-->
+                        <div class="row g-3 justify-content-center">
+                            <div class="col-4 col-md-3">
+                                <div class="p-3 border border-light rounded">
+                                    <i class="bi bi-filetype-py fs-3 text-white"></i>
+                                    <p class="text-white small mt-2 mb-0">Python</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-3">
+                                <div class="p-3 border border-light rounded">
+                                    <i class="bi bi-filetype-html fs-3 text-white"></i>
+                                    <p class="text-white small mt-2 mb-0">HTML</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-3">
+                                <div class="p-3 border border-light rounded">
+                                    <i class="bi bi-filetype-css fs-3 text-white"></i>
+                                    <p class="text-white small mt-2 mb-0">CSS</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-3">
+                                <div class="p-3 border border-light rounded">
+                                    <i class="bi bi-github fs-3 text-white"></i>
+                                    <p class="text-white small mt-2 mb-0">GitHub</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Módulo 1: Python-->
+        <section class="bg-white d-flex align-items-center" id="python">
+            <div class="container">
+                <!--Título-->
+                <div class="row pt-5 align-items-center text-center">
+                    <div class="col-12">
+                        <h1 class="display-4 text-black fw-bold">Módulo 1: Python</h1>
+                        <p class="lead text-black">Fundamentos y conocimientos básicos de programación.</p>
+                    </div>
+                </div>
+                <!--Cards-->
+                <div class="row py-5 justify-content-center g-4">
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Actividad 1: Hoja de vida</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Planteada en la semana de nivelatorio, su objetivo es copiar con HTML y CSS el diseño de una hoja de vida o CV.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="#" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Actividad 2: Condicionales</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Taller de 10 ejercicios prácticos para interiorizar el concepto de los condicionales.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_actividad2" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Moodle Week 1: Inventario</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">El usuario puede ingresar productos a un inventario y el sistema le imprime al final el resumen de la información.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_moodle_week1" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Actividad 3: Animales</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Sistema CRUD que gestiona la información de los animales de un Zoológico. Uso de arrays y condicionales.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_actividad_3" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Actividad 4: Listas</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Taller de 10 ejercicios prácticos para mejorar el manejo y uso de las listas.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_actividad_4" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Moodle Week 2: Inventario</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Sistema CRUD que gestiona la información de un inventario. Uso de arrays, condicionales y bucles.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_moodle_week2" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Actividad 5: Funciones</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Sistema CRUD que gestiona la información de los estudiantes de un colegio. El código de las operaciones se separó en funciones.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_actividad_5" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Actividad 6: CSV</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Sistema CRUD de usuarios aplicando verificación en Login, base de datos con CSV y funciones.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_actividad_6" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Moodle Week 3: Inventario</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Sistema CRUD de inventario aplicando base de datos con CSV y funciones.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_moodle_week3" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-bg-dark text-center" style="width: 18rem;">
+                            <div class="card-header border-light">
+                                <h5 class="card-title">Prueba Final Python</h5>
+                            </div>
+                            <div class="card-body border-light">
+                                <p class="card-text">Prueba final de desarrollo del Módulo 1: Python. Sistema de inventario para una tienda de libros.</p>
+                            </div>
+                            <div class="card-footer border-light">
+                                <a href="https://github.com/miguelrodrica/m1_python_prueba" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Módulo 2: HTML CSS-->
+        <section class="bg-black d-flex align-items-center" id="htmlcss">
+            <div class="container">
+                <!--Título-->
+                <div class="row pt-5 align-items-center text-center">
+                    <div class="col-12">
+                        <h1 class="display-4 text-white fw-bold">Módulo 2: HTML y CSS</h1>
+                        <p class="lead text-white">Desarrollo web Frontend, landing page y Bootstrap.</p>
+                    </div>
+                </div>
+                <!--Cards-->
+                <div class="row py-5 justify-content-center g-4">
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-center" style="width: 18rem;">
+                            <div class="card-header">
+                                <h5 class="card-title">Actividad 1: Login</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Diseño, estructura y formulario de una ventana de Login.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/miguelrodrica/m2_htmlcss_login" class="btn btn-primary" target="_blank">GitHub</a>
+                                <a href="https://miguelrodrica.github.io/m2_htmlcss_login/" class="btn btn-primary" target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-center" style="width: 18rem;">
+                            <div class="card-header">
+                                <h5 class="card-title">Moodle Week 1: Mascotas</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Crear una landing page sobre mascotas y hacer una galería de imágenes.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/miguelrodrica/m2_htmlcss_moodle_week1" class="btn btn-primary" target="_blank">GitHub</a>
+                                <a href="https://miguelrodrica.github.io/m2_htmlcss_moodle_week1/" class="btn btn-primary" target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-center" style="width: 18rem;">
+                            <div class="card-header">
+                                <h5 class="card-title">Actividad 2: Alkosto</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Recrear lo más fielmente posible el desarrollo frontend de la página web oficial de Alkosto.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/miguelrodrica/m2_htmlcss_alkosto" class="btn btn-primary" target="_blank">GitHub</a>
+                                <a href="https://miguelrodrica.github.io/m2_htmlcss_alkosto/" class="btn btn-primary" target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-center" style="width: 18rem;">
+                            <div class="card-header">
+                                <h5 class="card-title">Moodle Week 2: Mascotas</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Cambios en la galería, mejorando el responsive, Flexbox y Grid.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/miguelrodrica/m2_htmlcss_moodle_week2" class="btn btn-primary" target="_blank">GitHub</a>
+                                <a href="https://miguelrodrica.github.io/m2_htmlcss_moodle_week2/" class="btn btn-primary" target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-center" style="width: 18rem;">
+                            <div class="card-header">
+                                <h5 class="card-title">Actividad 3: Eventos</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Primer proyecto en celulas o equipos de 4 personas. Hacer una web de eventos. Nuestro concepto fue CineRiwi.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary" target="_blank">GitHub</a>
+                                <a href="#" class="btn btn-primary" target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-center" style="width: 18rem;">
+                            <div class="card-header">
+                                <h5 class="card-title">Moodle Week 3: ¿?</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Aún no la he hecho.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary" target="_blank">GitHub</a>
+                                <a href="#" class="btn btn-primary" target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card text-center" style="width: 18rem;">
+                            <div class="card-header">
+                                <h5 class="card-title">Prueba Final HTML y CSS</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Prueba final de desarrollo del Módulo 2: HTML y CSS. Recrear el diseño frontend de una landing page de Figma.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/miguelrodrica/m2_htmlcss_prueba" class="btn btn-primary" target="_blank">GitHub</a>
+                                <a href="https://miguelrodrica.github.io/m2_htmlcss_prueba/" class="btn btn-primary" target="_blank">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contacto-->
+        <section class="bg-white d-flex align-items-center" id="contact">
+            <div class="container">
+                <!--Título-->
+                <div class="row pt-5 text-center">
+                    <div class="col-12">
+                        <h1 class="display-4 text-black fw-bold">Contacto</h1>
+                        <p class="lead text-black">¿Quieres trabajar conmigo o conocer más sobre mis proyectos?</p>
+                    </div>
+                </div>
+                <!--Formulario-->
+                <div class="row py-5 justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Nombre</label>
+                                <input type="text" class="form-control" placeholder="Tu nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" placeholder="tuemail@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Mensaje</label>
+                                <textarea class="form-control" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer class="bg-black text-white text-center py-4">
+            <div class="container">
+                <!--Redes-->
+                <div class="mb-3">
+                    <a href="https://github.com/miguelrodrica" target="_blank" class="text-white fs-4 me-3">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="text-white fs-4 me-3">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="mailto:tuemail@email.com" class="text-white fs-4">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
+                <!--Texto-->
+                <p class="mb-0 small">
+                    © 2026 Miguel Rodriguez | Portafolio de Desarrollo Web
+                </p>
+            </div>
+        </footer>
+    </main>
+    <!--Links de JavaScript y Bootstrap-->
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
